@@ -42,23 +42,23 @@ public class Main {
 
         System.out.println("\n\nДомашнее задание 3");
         System.out.println("Задание 1");{
-        int salary = 29000;
-        int total = 0;
-        for (int i = 1; i <=12; i++) {
-            total = total + salary;
-            System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");
-        }
-        }
-
-        System.out.println("\nЗадание 2");
             int salary = 29000;
             int total = 0;
-
-            for (int i = 1; i <= 12; i++) {
-                total = total + total / 100;
+            for (int i = 1; i <=12; i++) {
                 total = total + salary;
                 System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");
             }
+        }
+
+        System.out.println("\nЗадание 2");
+        int salary = 29000;
+        int total = 0;
+
+        for (int i = 1; i <= 12; i++) {
+            total = total + total / 100;
+            total = total + salary;
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");
+        }
 
     }
 }
